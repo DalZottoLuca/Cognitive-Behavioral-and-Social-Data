@@ -14,14 +14,15 @@ that takes place on this platform, easily accessible through their API, represen
 opportunity for researchers interested in the study of elections and public opinion.
 The aim of this study is to predict the political orientation based on Twitter
 users’ posts. 
+
 We created a model using FastText, an advanced Natural Language
-Processing (NLP) tool which can be used both for text representation and for text classification.
-Then we used some simpler word vectorizer tools: Bag-of-Words (BoW) and Term
-Frequency–Inverse Document Frequency (TF-IDF). Their results have been used
+Processing tool which can be used both for text representation and for text classification.
+Then we used some simpler word vectorizer tools: Bag-of-Words and Term
+Frequency–Inverse Document Frequency. Their results have been used
 as an input for the following Machine Learning classifiers:
-• Linear SVC (Support Vector Classifier)
+• Linear Support Vector Classifier
 • Logistic Regression
-• Multinomial NB (Naive Bayes)
+• Multinomial NB Naive Bayes
 • Random Forest Classifier
-• SGD Classifier (Stochastic Gradient Descent)
+• SGD Classifier Stochastic Gradient Descent
 • XGBoost Classifier
