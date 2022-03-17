@@ -19,10 +19,4 @@ We created a model using FastText, an advanced Natural Language
 Processing tool which can be used both for text representation and for text classification.
 Then we used some simpler word vectorizer tools: Bag-of-Words and Term
 Frequency–Inverse Document Frequency. Their results have been used
-as an input for the following Machine Learning classifiers:
-• Linear Support Vector Classifier
-• Logistic Regression
-• Multinomial NB Naive Bayes
-• Random Forest Classifier
-• SGD Classifier Stochastic Gradient Descent
-• XGBoost Classifier
+as an input for the following Machine Learning classifiers: Linear Support Vector Classifier, Logistic Regression, Multinomial NB Naive Bayes, Random Forest Classifier, SGD Classifier Stochastic Gradient Descent, XGBoost Classifier.
